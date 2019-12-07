@@ -1,0 +1,28 @@
+{
+  "name": "attitude-framework",
+  "version": "1.0.0",
+  "description": "CSS framework built with SASS",
+  "main": "attitude.sass",
+  "scripts": {
+    "build-sass": "node-sass --output-style expanded --source-map true attitude.sass css/attitude.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geejay81/attitude-framework.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "framework"
+  ],
+  "author": "Greg Parr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geejay81/attitude-framework/issues"
+  },
+  "homepage": "https://github.com/geejay81/attitude-framework#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
