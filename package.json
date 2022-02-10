@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/geejay81/attitude-framework#readme",
   "devDependencies": {
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "stylelint": "^12.0.1",
     "stylelint-config-recommended": "^3.0.0"
   }
